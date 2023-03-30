@@ -19,22 +19,7 @@ const NavBar: React.FC = () => {
       <Container>
 
         <Navbar.Brand href="/" onClick={scrollToTop}>
-          <Image
-            src="/logo/azuki_logo_white.svg"
-            alt="Vercel Logo"
-            className={styles.vercelLogo}
-            width={100}
-            height={24}
-            priority
-          />
-          <Image
-            src="/logo/nyc.svg"
-            alt="Vercel Logo"
-            className={styles.nycLogo}
-            width={88}
-            height={24}
-            priority
-          />
+          ⛩️ &nbsp;Concrete Jungle
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
