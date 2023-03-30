@@ -34,12 +34,12 @@ const Slides: React.FC = () => {
                 <span className={styles.carouselLinks}>
                   {img.manifold && (
                     <a href={img.manifold} target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon icon={faLink} width={18} />
+                      <FontAwesomeIcon icon={faLink} width={25} />
                     </a>
                   )}
                   {img.twitterThread && (
                     <a href={img.twitterThread} target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon icon={faTwitter} width={18} />
+                      <FontAwesomeIcon icon={faTwitter} width={25} />
                     </a>
                   )}
                 </span>
