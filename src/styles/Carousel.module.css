@@ -16,8 +16,13 @@
     background-color: rgba(128, 128, 128, 0.75);
     font-family: 'MSBee-Black', 'MSBee-Regular', 'Helvetica Neue', Helvetica, Arial, sans;
     font-family: 'MSBee-Regular', 'Helvetica Neue', Helvetica, Arial, sans;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
-
+  
 .captionTitle {
     font-size: 3rem;
 }
