@@ -40,6 +40,7 @@
     /* display: inline-block; */
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     /* white-space: nowrap; */
+    font-size: 15.6px;
 }
 
 .teamCard .teamCardGlow {
