@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
         Discord
       </a>
       &nbsp;&nbsp;|&nbsp;&nbsp;
-      Azuki NYC © 2023
+      Made with ❤️ 2023
     </footer>
   );
 };
