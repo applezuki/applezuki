@@ -93,7 +93,7 @@ const TeamCard: React.FC<{ teamMember: TeamMember }> = ({ teamMember }) => {
   if (!teamMember) {
     return <div ref={cardRef}></div>;
   }
-
+  
   return (
     <div
       ref={cardRef}
