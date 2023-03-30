@@ -18,7 +18,7 @@ const Slides: React.FC = () => {
 
   return (
 
-    <Carousel activeIndex={0} onSelect={handleSelect} className={styles.carousel}>
+    <Carousel activeIndex={index} onSelect={handleSelect} className={styles.carousel}>
       {
         Images.map((img, index) => (
           <Carousel.Item key={index}>
