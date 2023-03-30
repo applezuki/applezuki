@@ -19,7 +19,7 @@ const NavBar: React.FC = () => {
       <Container>
 
         <Navbar.Brand href="/" onClick={scrollToTop}>
-          ⛩️ &nbsp;Concrete Jungle
+          ⛩️ &nbsp;Concrete Garden
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
