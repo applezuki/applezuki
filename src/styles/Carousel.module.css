@@ -1,0 +1,42 @@
+.carousel {
+    background-color: black;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carouselImg {
+    width: 100vw;
+    padding: auto;
+}
+
+.caption {
+    color: rgb(255, 255, 255);
+    background-color: rgba(128, 128, 128, 0.75);
+    font-family: 'MSBee-Black', 'MSBee-Regular', 'Helvetica Neue', Helvetica, Arial, sans;
+    font-family: 'MSBee-Regular', 'Helvetica Neue', Helvetica, Arial, sans;
+}
+
+.captionTitle {
+    font-size: 3rem;
+}
+
+.carouselLinks a {
+    font-family: "Mono-Regular", "Helvetica Neue", Helvetica, Arial, sans;
+    color: inherit;
+    text-decoration: none;
+    font-size: 5rem;
+    margin: 0 0rem 0 2rem;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+    .captionTitle {
+        display: none;
+    }
+
+    .carouselLinks a {
+        display: none;
+    }
+}
