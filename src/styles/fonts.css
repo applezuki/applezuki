@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'MSBee-Regular';
+    src: url('./fonts/MSBee-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MSBee-Black';
+    src: url('./fonts/MSBee-Black.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mono-Regular';
+    src: url('./fonts/MonoRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
