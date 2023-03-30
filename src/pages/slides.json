@@ -1,23 +1,34 @@
 [
     {
+        "src": "./carousel/the-concrete-garden.png",
+        "alt": "",
+        "captionTitle": "The Concrete Garden",
+        "manifold": "https://app.manifold.xyz/c/azukinycnftnyc",
+        "twitterThread": "https://twitter.com/AzukiNYC/status/1641185733246320640",
+        "isLive": true
+    },
+    {
         "src": "./carousel/azuki-newyorkcity.png",
         "alt": "",
         "captionTitle": "",
         "manifold": "",
-        "twitterThread": ""
+        "twitterThread": "",
+        "isLive": false
     },
     {
         "src": "./carousel/empire-state-of-mind.png",
         "alt": "",
         "captionTitle": "Empire State of Mind",
         "manifold": "https://app.manifold.xyz/c/azukiNYC",
-        "twitterThread": "https://twitter.com/0xexodia/status/1627797519798517760"
+        "twitterThread": "https://twitter.com/0xexodia/status/1627797519798517760",
+        "isLive": false
     },
     {
         "src": "./carousel/welcome-to-azukinyc.png",
         "alt": "",
         "captionTitle": "Welcome to AzukiNYC",
         "manifold": "https://app.manifold.xyz/c/azukiNYCTYdrop",
-        "twitterThread": "https://twitter.com/0xexodia/status/1630587131654447104"
+        "twitterThread": "https://twitter.com/0xexodia/status/1630587131654447104",
+        "isLive": false
     }
 ]
