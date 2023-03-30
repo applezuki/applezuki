@@ -1,14 +1,20 @@
+.captionTitle {
+    display: inline-block;
+    position: relative;
+}
+
 .status {
-    display: flex;
+    display: inline;
     align-items: center;
     font-size: 1.1rem;
     font-weight: normal;
-    padding: 2.2rem 0 0 13.4rem;
-    position: absolute;
+    /* padding: 2.2rem 0 0 13.4rem; */
+    /* position: absolute; */
+    padding: 0 10px 0 0;
 }
 
 .isLive {
-
+    /* position: absolute; */
 }
 
 .light {
@@ -17,6 +23,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+
 }
 
 .ring {
