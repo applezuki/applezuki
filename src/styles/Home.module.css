@@ -1,3 +1,14 @@
+/* Global */
+.highlight {
+  font-weight: bolder;
+  background: linear-gradient(104deg, hsla(0, 100%, 75%, 0) .9%, #ff8282 2.4%, hsla(0, 100%, 75%, .5) 5.8%, hsla(0, 100%, 75%, .1) 93%, hsla(0, 100%, 75%, .7) 96%), linear-gradient(183deg, rgba(130, 255, 173, 0), rgba(255, 107, 152, .3) 7.9%, hsla(0, 100%, 75%, 0) 15%);
+  padding: 0.6em 13.7px;
+  -webkit-box-decoration-break: clone;
+  margin: 0;
+  border-radius: 7.5px;
+  text-shadow: -12px 12px 9.8px hsla(0, 100%, 75%, .7), 21px -18.1px 7.3px #fff, -18.1px -27.3px 30px #fff;
+}
+
 /* Navbar - hide/show social icons */
 .navIcon {
   display: inline;
@@ -14,7 +25,6 @@
 }
 
 /* Main */
-
 .main {
   display: flex;
   flex-direction: column;
@@ -29,7 +39,7 @@
   /* Azuki Red */
   /* color: rgb(201, 60, 75); */
   color: rgb(0, 0, 0);
-  margin: 0 0 4rem 0;
+  margin: -1rem 0 2rem 0;
 }
 
 .grid {
