@@ -1,3 +1,18 @@
+/* Navbar - hide/show social icons */
+.navIcon {
+  display: inline;
+}
+
+@media (max-width: 991px) {
+  .navIcon {
+    display: none;
+  }
+}
+
+.disabledLink {
+  cursor: not-allowed;
+}
+
 .main {
   display: flex;
   flex-direction: column;
