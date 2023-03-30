@@ -89,6 +89,11 @@ const TeamCard: React.FC<{ teamMember: TeamMember }> = ({ teamMember }) => {
   const glowRef = useRef<HTMLDivElement | null>(null);
   const cardRef = useHoverEffect();
 
+  // Check if teamMember is undefined
+  if (!teamMember) {
+    return <div ref={cardRef}></div>;
+  }
+
   return (
     <div
       ref={cardRef}
