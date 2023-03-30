@@ -1,0 +1,52 @@
+.teamCard {
+    font-weight: bold;
+    padding: 14rem 1.5rem 2rem;
+    text-align: justify;
+    color: rgb(0, 172, 238);
+    margin: 1.5rem;
+    box-shadow: 0 1px 5px #00000099;
+    border-radius: 10px;
+    /* background-image: url(https://azukiimagemaker.vercel.app/api/pairbeanz-prod?azukiId=2729&beanzId=10179); */
+    background-size: cover;
+    position: relative;
+    transition-duration: 300ms;
+    transition-property: transform, box-shadow;
+    transition-timing-function: ease-out;
+    /* transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94); */
+    transform: rotate3d(0);
+}
+
+.teamCard:hover {
+    transition-duration: 150ms;
+    box-shadow: 0 5px 20px 5px #00000044;
+}
+
+.teamCard>a,
+.teamCard>a:hover {
+    color: inherit;
+}
+
+.teamMemberInfo {
+    display: inline-block;
+    padding: 2px 5px;
+    background-color: rgba(200, 200, 200, 0.9);
+}
+
+.at {
+    padding: 0 1px 0 4px;
+}
+
+.teamMemberName {
+    /* display: inline-block; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* white-space: nowrap; */
+}
+
+.teamCard .teamCardGlow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: radial-gradient(circle at 50% -20%, #ffffff32, #0000000f);
+}
