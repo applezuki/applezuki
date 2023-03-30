@@ -11,6 +11,10 @@
     padding: auto;
 }
 
+.captionFlex {
+
+}
+
 .caption {
     color: rgb(255, 255, 255);
     background-color: rgba(128, 128, 128, 0.75);

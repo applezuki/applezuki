@@ -28,9 +28,9 @@ const NavBar: React.FC = () => {
             <Nav.Link href="#team">Team</Nav.Link>
             <Nav.Link href="#membership" disabled>Membership</Nav.Link>
             <NavDropdown title="Events" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/nftnyc">NFT NYC</NavDropdown.Item>
+              <NavDropdown.Item href="https://twitter.com/AzukiNYC/status/1641185733246320640" target="_blank">NFT NYC</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/monthly-events">Monthly Events</NavDropdown.Item>
+              <NavDropdown.Item href="#action/monthly-events" disabled>Monthly Events</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
