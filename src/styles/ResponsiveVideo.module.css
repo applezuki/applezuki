@@ -42,11 +42,6 @@
     height: auto;
     object-fit: contain;
   }
-
-  .toggleButton {
-    top: 18%;
-    right: 8px;
-  }
 }
 
 .toggleButton:before,
