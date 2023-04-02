@@ -1,3 +1,11 @@
+/* Show/Hide contentContainer */
+.contentContainer {
+  display: inherit;
+}
+.contentContainerHide {
+  display: none;
+}
+
 /* Global */
 .highlight {
   font-weight: bolder;
