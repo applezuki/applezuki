@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Azuki NYC 🗽⛩️</title>
+        <title>Concrete Garden 🗽⛩️</title>
         <meta name="description" content="Say Less Do More - Supported by Community, for the Community" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
