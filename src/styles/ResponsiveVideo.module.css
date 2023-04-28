@@ -16,7 +16,25 @@
   cursor: pointer;
 }
 
-.toggleButton {
+.toggleVolumeButton {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  background-color: transparent;
+  border: 2px solid rgb(180, 250, 250);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  transition: transform 300ms ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.closeFlyerButton {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -44,8 +62,8 @@
   }
 }
 
-.toggleButton:before,
-.toggleButton:after {
+.closeFlyerButton:before,
+.closeFlyerButton:after {
   content: "";
   position: absolute;
   background-color: rgb(180, 250, 250);
@@ -54,15 +72,15 @@
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
 }
 
-.toggleButton:before {
+.closeFlyerButton:before {
   transform: rotate(45deg);
 }
 
-.toggleButton:after {
+.closeFlyerButton:after {
   transform: rotate(-45deg);
 }
 
-.toggleButton:hover {
+.closeFlyerButton:hover {
   transform: scale(1.1) rotate(90deg);
 }
 
