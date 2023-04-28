@@ -37,7 +37,7 @@ const ResponsiveVideo: React.FC<ResponsiveVideoProps> = ({ onButtonClick, isVide
         className={`${styles.videoContainer} ${isVideoHidden ? styles.tvOff : ''}`}
         onClick={onButtonClick}
         >
-        <video ref={videoRef} controls autoPlay muted loop id="vidFlyer" className={styles.vid}>
+        <video ref={videoRef} autoPlay muted loop id="vidFlyer" className={styles.vid}>
           <source src="/vid/oe_vibes/azukinycXmoar_animation_trimmed.mp4" type="video/mp4" />
         </video>
 
