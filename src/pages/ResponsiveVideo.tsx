@@ -1,7 +1,7 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import styles from '@/styles/ResponsiveVideo.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faVolumeMute } from '@fortawesome/free-solid-svg-icons';
+import { faVolumeMute, faVolumeUp } from '@fortawesome/free-solid-svg-icons';
 
 interface ResponsiveVideoProps {
   onButtonClick: () => void;
@@ -10,10 +10,12 @@ interface ResponsiveVideoProps {
 
 const ResponsiveVideo: React.FC<ResponsiveVideoProps> = ({ onButtonClick, isVideoHidden }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [isMuted, setIsMuted] = useState(true);
 
   const handleVolumeButtonClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     if (videoRef.current) {
       videoRef.current.muted = !videoRef.current.muted;
+      setIsMuted(!isMuted);
     }
     e.stopPropagation();
   };
@@ -26,7 +28,10 @@ const ResponsiveVideo: React.FC<ResponsiveVideoProps> = ({ onButtonClick, isVide
   return (
     <div>
       <button className={styles.toggleVolumeButton} onClick={handleVolumeButtonClick}>
-        <FontAwesomeIcon icon={faVolumeMute} style={{ color: 'rgb(180, 250, 250)', width: '14px' }} />
+        <FontAwesomeIcon
+          icon={isMuted ? faVolumeMute : faVolumeUp}
+          style={{ color: 'rgb(180, 250, 250)', width: '14px' }}
+        />
       </button>
       <div
         className={`${styles.videoContainer} ${isVideoHidden ? styles.tvOff : ''}`}
