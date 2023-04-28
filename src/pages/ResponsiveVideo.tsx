@@ -13,15 +13,18 @@ const ResponsiveVideo: React.FC<ResponsiveVideoProps> = ({ onButtonClick, isVide
   };
 
   return (
-    <div
-      className={`${styles.videoContainer} ${isVideoHidden ? styles.tvOff : ''}`}
-      onClick={onButtonClick}
-    >
-      <video autoPlay muted loop id="vidFlyer" className={styles.vid}>
-        <source src="/vid/event_concrete_garden/flyer_url.mp4" type="video/mp4" />
-      </video>
+    <div>
+      {/* <button></button> TODO add vol button */}
+      <div
+        className={`${styles.videoContainer} ${isVideoHidden ? styles.tvOff : ''}`}
+        onClick={onButtonClick}
+        >
+        <video controls autoPlay muted loop id="vidFlyer" className={styles.vid}>
+          <source src="/vid/oe_vibes/azukinycXmoar_animation_trimmed.mp4" type="video/mp4" />
+        </video>
 
-      <button className={styles.toggleButton} onClick={handleButtonClick}></button>
+        <button className={styles.toggleButton} onClick={handleButtonClick}></button>
+      </div>
     </div>
   );
 };
