@@ -18,7 +18,7 @@ const ResponsiveVideo: React.FC<ResponsiveVideoProps> = ({ onButtonClick, isVide
       onClick={onButtonClick}
     >
       <video autoPlay muted loop id="vidFlyer" className={styles.vid}>
-        <source src="/vid/flyer_url.mp4" type="video/mp4" />
+        <source src="/vid/event_concrete_garden/flyer_url.mp4" type="video/mp4" />
       </video>
 
       <button className={styles.toggleButton} onClick={handleButtonClick}></button>
