@@ -1,11 +1,19 @@
 [
     {
+        "src": "./carousel/concrete-garden-vibes.png",
+        "alt": "",
+        "captionTitle": "Concrete Garden Vibes",
+        "manifold": "https://app.manifold.xyz/c/concretegardenvibes",
+        "twitterThread": "https://twitter.com/AzukiNYC/",
+        "isLive": true
+    },
+    {
         "src": "./carousel/the-concrete-garden.png",
         "alt": "",
         "captionTitle": "The Concrete Garden",
         "manifold": "https://app.manifold.xyz/c/azukinycnftnyc",
         "twitterThread": "https://twitter.com/AzukiNYC/status/1641185733246320640",
-        "isLive": true
+        "isLive": false
     },
     {
         "src": "./carousel/azuki-newyorkcity.png",
